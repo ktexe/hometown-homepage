@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+PURPLE: ##7A146F
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+CHARCOAL: #2a2829
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/v2osk-IHKBF23A_iw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.header__title {
+  background-color: #7a146f;
+  color: #fff;
+  padding: 3px 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.header__subtitle {
+  background-color: #1d3557;
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 28px;
+  border-radius: 10px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.activities {
+  background-color: #2a2829;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.activities__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 33.33%;
+  max-width: 400px;
+  padding: 0 20px 0 20px;
+}
+
+.activity__image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.activity__title {
+  margin-bottom: 12px;
+}
+
+.guide {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.guide__box {
+  background: #1d3557;
+  padding: 32px 18px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.guide__title {
+    font-size: 24px;
+}
+
+.guide__text {
+width: 200px;
+font-style: italic;
+margin: 25px 10px;
+}
+
+.guide__image {
+max-width: 200px;
+}
